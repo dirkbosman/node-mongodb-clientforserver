@@ -1,0 +1,133 @@
+.PreviewWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 600px;
+  max-width: 400px;
+  max-height: 600px;
+  color: transparent;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.entriesWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.simple-entry {
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  align-items: flex-start;
+  cursor: pointer;
+  background: #fdf5ec;
+  color: #505050;
+}
+
+.simple-entry > * {
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
+.simple-entry p {
+  font-size: 12px;
+}
+
+.card-1 {
+  background: #fdf5ec;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.buttonsWrapper {
+  display: flex;
+  background-color: #ffaf87;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.buttonLight {
+  background-color: #ffaf87;
+  border: none;
+  color: #505050;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 4%;
+}
+
+.buttonDark {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #505050;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 4%;
+}
+
+
+/* .playerCount {
+  color: rgb(0, 0, 0);
+  background-color: #51908a;
+  padding: 2px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 4px;
+} */
+
+.players-xs p {
+  background: #88d8b0;
+  padding: 2px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 4px;
+}
+.players-sm p {
+  background-color: #add6ff;
+  padding: 2px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 4px;
+}
+.players-md p {
+  background: #fdf498;
+  padding: 2px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 4px;
+}
+.players-lg p {
+  background: #e4dcf1;
+  padding: 2px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 4px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .buttonDark {
+    font-size: 0.8rem;
+  }
+  .buttonLight {
+    font-size: 0.8rem;
+  }
+}
