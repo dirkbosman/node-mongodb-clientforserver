@@ -1,6 +1,7 @@
-## GameTime (React App)
+## GameTime 2 (React App)
 
-- A thin react client for [contentful](https://www.contentful.com/) with a "game"-theme.
+- A thin react client to replace [contentful](https://www.contentful.com/) with a express / node / mongodb back-end.
+- Below you will find the details of the original repo: https://github.com/dirkbosman/gametime, but with slighly updated code to connect to the new back-end in: https://github.com/dirkbosman/node-mongodb-controllers (further details is in the README of the latter repo).
 
 ### Getting Started
 
