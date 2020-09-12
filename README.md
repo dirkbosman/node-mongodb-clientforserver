@@ -3,6 +3,16 @@
 - A thin react client to replace [contentful](https://www.contentful.com/) with an express / node / mongodb back-end.
 - Below you will find the details of the original repo: https://github.com/dirkbosman/gametime, but with slighly updated code to connect to the new back-end in: https://github.com/dirkbosman/node-mongodb-controllers (further details is in the README of the latter repo).
 
+
+### Boilerplates:
+
+- [Part 1: node-postgresql-unstructured](https://github.com/dirkbosman/node-postgresql-unstructured)
+- [Part 2: node-postgresql-destructured](https://github.com/dirkbosman/node-postgresql-destructured)
+- [Part 3: node-postgresql-controllers](https://github.com/dirkbosman/node-postgresql-controllers)
+---
+- [Part 4a: node-mongodb-controllers](https://github.com/dirkbosman/node-mongodb-controllers)
+- Part 4b: Combine [node-mongodb-clientforserver](https://github.com/dirkbosman/node-mongodb-clientforserver) + [node-mongodb-controllers](https://github.com/dirkbosman/node-mongodb-controllers)
+
 ### Getting Started
 
 ```
